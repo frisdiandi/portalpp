@@ -172,12 +172,32 @@
                            			<p>Simpang Gunung, Padang Panjang 	 </p>
                                 <p>Pasar Baru, Padang Panjang   </p>
                            			<br>
+
                                 <h5>Bank BRI </h5><br>
                                 <p>Kantor Cab Bank Rakyat Indonesia (Jend Sudirman) </p>
-                                <p>Kantor Cab Bank Rakyat Indonesia (Jend Sudirman) </p>
-                                <p>Area Hotel Pangeran ,Padang Panjang</p>
-                                <p>Balaikota , Jl. Prof. M. Yamin No.89, Silaing Atas  </p>
-                           			
+                                <p>Area RSUD Kota Padang Panjang, Ganting</p>
+                                <p>Bank BRI Unit Pasar Usang </p>
+                                <p>Bank BRI Unit Pasar</p>
+                                <p>Rumah Sakit Ibnu Sina </p>
+                                <p>Gedung Pertemuan M.Syafei</p>
+                                <p>Area Mesjid Nurul Iman Silaing Atas</p>
+                                <p>Area AB Mart</p>
+                                <p>Area Paris Swalayan</p>
+                                <br>
+
+                                <h5>Bank BNI</h5><br>
+                                <p>Bank BNI KCP Padang Panjang</p>
+                                <p>Pesantren Serambi Mekah</p>
+                                <p>Area RSUD Kota Padang Panjang</p>
+                                <p>Area Sate Mak Syukur</p><br>
+
+                                <h5>Bank Mandiri Syariah</h5><br>
+                                <p>BSM KCP Padang Panjang</p>
+                                <p>Area Dinniyah Putri</p><br>
+
+                                <h5>Bank Mandiri</h5><br>
+                                <p>Area Sate Mak Syukur</p><br>
+                                                       			
                            		</div>
                            	<div class="row">
                            		<div class="col-4"><br><br>
@@ -188,6 +208,22 @@
   									             <p><a href="https://www.google.com/maps?saddr=My+Location&daddr=-0.461875,100.390268" target="_blank"><button class="btn btn-sm btn-info">Cek Lokasi</button></a></p> 
 
   									             <p><a href="https://www.google.com/maps?saddr=My+Location&daddr=-0.4737957,100.423606,19" target="_blank"><button class="btn btn-sm btn-info">Cek Lokasi</button></a></p> 
+
+                                <p><a href="https://www.google.com/maps?saddr=My+Location&daddr=-0.4737957,100.423606,19" target="_blank"><button class="btn btn-sm btn-info">Cek Lokasi</button></a></p> 
+                                <br>
+                                <p><a href="https://www.google.com/maps?saddr=My+Location&daddr=-0.459911,100.418245" target="_blank"><button class="btn btn-sm btn-info">Cek Lokasi</button></a></p>
+
+                                <p><a href="https://www.google.com/maps?saddr=My+Location&daddr=-0.463149,100.399144" target="_blank"><button class="btn btn-sm btn-info">Cek Lokasi</button></a></p>
+    
+                                 <p><a href="https://www.google.com/maps?saddr=My+Location&daddr=-0.461875,100.390268" target="_blank"><button class="btn btn-sm btn-info">Cek Lokasi</button></a></p> 
+
+                                 <p><a href="https://www.google.com/maps?saddr=My+Location&daddr=-0.4737957,100.423606,19" target="_blank"><button class="btn btn-sm btn-info">Cek Lokasi</button></a></p> 
+
+                                <p><a href="https://www.google.com/maps?saddr=My+Location&daddr=-0.4737957,100.423606,19" target="_blank"><button class="btn btn-sm btn-info">Cek Lokasi</button></a></p> 
+
+                                <p><a href="https://www.google.com/maps?saddr=My+Location&daddr=-0.461875,100.390268" target="_blank"><button class="btn btn-sm btn-info">Cek Lokasi</button></a></p> 
+
+                                 <p><a href="https://www.google.com/maps?saddr=My+Location&daddr=-0.4737957,100.423606,19" target="_blank"><button class="btn btn-sm btn-info">Cek Lokasi</button></a></p> 
 
                                 <p><a href="https://www.google.com/maps?saddr=My+Location&daddr=-0.4737957,100.423606,19" target="_blank"><button class="btn btn-sm btn-info">Cek Lokasi</button></a></p> 
 								</div>
