@@ -2,7 +2,7 @@
   'activePage' => 'home', 
 ])
 @section('content')    
-    	<section class="hero-wrap hero-wrap-2" style="background-image: url('assetuser/images/portal Padang Panjang (1).png'); height:80%"></section>
+    	<section class="hero-wrap hero-wrap-2" style="background-image: url('assetuser/images/header1.png'); height:80%"></section>
 
 
 		<section class="ftco-section ftco-no-pt ftco-no-pb ftco-consult">
