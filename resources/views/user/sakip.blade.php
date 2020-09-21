@@ -102,9 +102,9 @@
                       <table id="basic-datatables1" class="customers" width="100%">
 							<thead>
 							<tr>
-								<th>No</th>
-                          <th >Judul</th>
-                          <th >Tahun</th>
+						  <th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
                           <th class="text-center">Download</th>
 												</tr>
 											</thead>
@@ -113,8 +113,8 @@
                                         @foreach($bappeda as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
                                             <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
@@ -131,10 +131,10 @@
                       <table id="basic-datatables2" class="customers" width="100%" >
 							<thead>
 							<tr>
-								<th>No</th>
-                          <th>Judul</th>
-                          <th>Tahun</th>
-                          <th>Download</th>
+						  <th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th class="text-center">Download</th>
 												</tr>
 											</thead>
 											<tbody>
@@ -142,9 +142,9 @@
                                         @foreach($bkpsdm as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -160,10 +160,10 @@
                       <table id="basic-datatables3" class="customers" width="100%" >
 							<thead>
 							<tr>
-								<th>No</th>
-                          <th>Judul</th>
-                          <th>Tahun</th>
-                          <th>Download</th>
+								<th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th class="text-center">Download</th>
 												</tr>
 											</thead>
 											<tbody>
@@ -171,9 +171,9 @@
                                         @foreach($bpbd as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -190,10 +190,10 @@
                       <table id="basic-datatables4" class="customers" width="100%" >
 							<thead>
 							<tr>
-								<th>No</th>
-                          <th>Judul</th>
-                          <th>Tahun</th>
-                          <th>Download</th>
+						<th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th	class="text-center">Download</th>
 												</tr>
 											</thead>
 											<tbody>
@@ -201,9 +201,9 @@
                                         @foreach($bpkd as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -220,10 +220,10 @@
                       					<table id="basic-datatables5" class="customers" width="100%" >
 							<thead>
 								<tr>
-								  <th>No</th>
-		                          <th>Judul</th>
-		                          <th>Tahun</th>
-		                          <th>Download</th>
+								  <th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th class="text-center">Download</th>
 								</tr>
 							</thead>
 								<tbody>
@@ -231,10 +231,9 @@
                                         @foreach($cabar as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
-                                            <td>{{$data->instansi}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -251,10 +250,10 @@
                       					<table id="basic-datatables6" class="customers" width="100%" >
 							<thead>
 								<tr>
-								  <th>No</th>
-		                          <th>Judul</th>
-		                          <th>Tahun</th>
-		                          <th>Download</th>
+								  <th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th class="text-center">Download</th>
 								</tr>
 							</thead>
 								<tbody>
@@ -262,10 +261,9 @@
                                         @foreach($catim as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
-                                            <td>{{$data->instansi}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -282,10 +280,10 @@
                       					<table id="basic-datatables7" class="customers" width="100%" >
 							<thead>
 								<tr>
-								  <th>No</th>
-		                          <th>Judul</th>
-		                          <th>Tahun</th>
-		                          <th>Download</th>
+								  <th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th class="text-center">Download</th>
 								</tr>
 							</thead>
 								<tbody>
@@ -293,10 +291,9 @@
                                         @foreach($dinsos as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
-                                            <td>{{$data->instansi}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -313,10 +310,10 @@
                       					<table id="basic-datatables8" class="customers" width="100%" >
 							<thead>
 								<tr>
-								  <th>No</th>
-		                          <th>Judul</th>
-		                          <th>Tahun</th>
-		                          <th>Download</th>
+								  <th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th class="text-center">Download</th>
 								</tr>
 							</thead>
 								<tbody>
@@ -324,9 +321,9 @@
                                         @foreach($disdikpora as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -343,10 +340,10 @@
                       					<table id="basic-datatables9" class="customers" width="100%" >
 							<thead>
 								<tr>
-								  <th>No</th>
-		                          <th>Judul</th>
-		                          <th>Tahun</th>
-		                          <th>Download</th>
+								  <th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th class="text-center">Download</th>
 								</tr>
 							</thead>
 								<tbody>
@@ -354,9 +351,9 @@
                                         @foreach($disdukcapil as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -373,10 +370,10 @@
                       					<table id="basic-datatables10" class="customers" width="100%" >
 							<thead>
 								<tr>
-								  <th>No</th>
-		                          <th>Judul</th>
-		                          <th>Tahun</th>
-		                          <th>Download</th>
+								  <th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th class="text-center">Download</th>
 								</tr>
 							</thead>
 								<tbody>
@@ -384,9 +381,9 @@
                                         @foreach($dishub as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -403,10 +400,10 @@
                       					<table id="basic-datatables11" class="customers" width="100%" >
 							<thead>
 								<tr>
-								  <th>No</th>
-		                          <th>Judul</th>
-		                          <th>Tahun</th>
-		                          <th>Download</th>
+								  <th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th class="text-center">Download</th>
 								</tr>
 							</thead>
 								<tbody>
@@ -414,9 +411,9 @@
                                         @foreach($diskominfo as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -433,10 +430,10 @@
                       					<table id="basic-datatables12" class="customers" width="100%" >
 							<thead>
 								<tr>
-								  <th>No</th>
-		                          <th>Judul</th>
-		                          <th>Tahun</th>
-		                          <th>Download</th>
+								  <th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th class="text-center">Download</th>
 								</tr>
 							</thead>
 								<tbody>
@@ -444,9 +441,9 @@
                                         @foreach($dispangtan as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -464,10 +461,10 @@
                       					<table id="basic-datatables13" class="customers" width="100%" >
 							<thead>
 								<tr>
-								  <th>No</th>
-		                          <th>Judul</th>
-		                          <th>Tahun</th>
-		                          <th>Download</th>
+								  <th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th class="text-center">Download</th>
 								</tr>
 							</thead>
 								<tbody>
@@ -475,9 +472,9 @@
                                         @foreach($dispar as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -495,10 +492,10 @@
                       					<table id="basic-datatables14" class="customers" width="100%" >
 							<thead>
 								<tr>
-								  <th>No</th>
-		                          <th>Judul</th>
-		                          <th>Tahun</th>
-		                          <th>Download</th>
+								  <th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th class="text-center">Download</th>
 								</tr>
 							</thead>
 								<tbody>
@@ -506,9 +503,9 @@
                                         @foreach($disperkim as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -525,10 +522,10 @@
                       					<table id="basic-datatables15" class="customers" width="100%" >
 							<thead>
 								<tr>
-								  <th>No</th>
-		                          <th>Judul</th>
-		                          <th>Tahun</th>
-		                          <th>Download</th>
+								  <th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th class="text-center">Download</th>
 								</tr>
 							</thead>
 								<tbody>
@@ -536,9 +533,9 @@
                                         @foreach($dispupr as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -555,10 +552,10 @@
                       					<table id="basic-datatables16" class="customers" width="100%" >
 							<thead>
 								<tr>
-								  <th>No</th>
-		                          <th>Judul</th>
-		                          <th>Tahun</th>
-		                          <th>Download</th>
+								  <th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th class="text-center">Download</th>
 								</tr>
 							</thead>
 								<tbody>
@@ -566,9 +563,9 @@
                                         @foreach($dkk as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -585,10 +582,10 @@
                       					<table id="basic-datatables17" class="customers" width="100%" >
 							<thead>
 								<tr>
-								  <th>No</th>
-		                          <th>Judul</th>
-		                          <th>Tahun</th>
-		                          <th>Download</th>
+								  <th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th class="text-center">Download</th>
 								</tr>
 							</thead>
 								<tbody>
@@ -596,9 +593,9 @@
                                         @foreach($dpk as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -616,10 +613,10 @@
                       					<table id="basic-datatables18" class="customers" width="100%" >
 							<thead>
 								<tr>
-								  <th>No</th>
-		                          <th>Judul</th>
-		                          <th>Tahun</th>
-		                          <th>Download</th>
+								  <th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th class="text-center">Download</th>
 								</tr>
 							</thead>
 								<tbody>
@@ -627,9 +624,9 @@
                                         @foreach($dpkukm as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -647,10 +644,10 @@
                       					<table id="basic-datatables19" class="customers" width="100%" >
 							<thead>
 								<tr>
-								  <th>No</th>
-		                          <th>Judul</th>
-		                          <th>Tahun</th>
-		                          <th>Download</th>
+								  <th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th class="text-center">Download</th>
 								</tr>
 							</thead>
 								<tbody>
@@ -658,9 +655,9 @@
                                         @foreach($dpmptsp as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -677,10 +674,10 @@
                       					<table id="basic-datatables20" class="customers" width="100%" >
 							<thead>
 								<tr>
-								  <th>No</th>
-		                          <th>Judul</th>
-		                          <th>Tahun</th>
-		                          <th>Download</th>
+								  <th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th class="text-center">Download</th>
 								</tr>
 							</thead>
 								<tbody>
@@ -688,9 +685,9 @@
                                         @foreach($dprd as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -707,10 +704,10 @@
                       					<table id="basic-datatables21" class="customers" width="100%" >
 							<thead>
 								<tr>
-								  <th>No</th>
-		                          <th>Judul</th>
-		                          <th>Tahun</th>
-		                          <th>Download</th>
+								  <th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th class="text-center">Download</th>
 								</tr>
 							</thead>
 								<tbody>
@@ -718,9 +715,9 @@
                                         @foreach($inspektorat as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -737,10 +734,10 @@
                       					<table id="basic-datatables22" class="customers" width="100%" >
 							<thead>
 								<tr>
-								  <th>No</th>
-		                          <th>Judul</th>
-		                          <th>Tahun</th>
-		                          <th>Download</th>
+								  <th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th class="text-center">Download</th>
 								</tr>
 							</thead>
 								<tbody>
@@ -748,9 +745,9 @@
                                         @foreach($kota as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -767,10 +764,10 @@
                       					<table id="basic-datatables23" class="customers" width="100%" >
 							<thead>
 								<tr>
-								  <th>No</th>
-		                          <th>Judul</th>
-		                          <th>Tahun</th>
-		                          <th>Download</th>
+								  <th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th class="text-center">Download</th>
 								</tr>
 							</thead>
 								<tbody>
@@ -778,9 +775,9 @@
                                         @foreach($rsud as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -797,10 +794,10 @@
                       					<table id="basic-datatables24" class="customers" width="100%" >
 							<thead>
 								<tr>
-								  <th>No</th>
-		                          <th>Judul</th>
-		                          <th>Tahun</th>
-		                          <th>Download</th>
+								  <th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th class="text-center">Download</th>
 								</tr>
 							</thead>
 								<tbody>
@@ -808,9 +805,9 @@
                                         @foreach($polpp as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -827,10 +824,10 @@
                       					<table id="basic-datatables25" class="customers" width="100%" >
 							<thead>
 								<tr>
-								  <th>No</th>
-		                          <th>Judul</th>
-		                          <th>Tahun</th>
-		                          <th>Download</th>
+								  <th width="5%" class="text-center">No</th>
+                          <th class="text-center">Judul</th>
+                          <th class="text-center">Tahun</th>
+                          <th class="text-center">Download</th>
 								</tr>
 							</thead>
 								<tbody>
@@ -838,9 +835,9 @@
                                         @foreach($setdako as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td>{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
+                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td class="text-center">{{$data->judul}}</td>
+                                            <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/sakip')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
