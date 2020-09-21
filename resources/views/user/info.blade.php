@@ -181,7 +181,7 @@
 		
 									<p><a href="https://www.google.com/maps?saddr=My+Location&daddr=-0.461875,100.390268" target="_blank"><button class="btn btn-sm btn-info">Cek Lokasi</button></a></p> 
 
-									<p><a href="https://www.google.com/maps?saddr=My+Location&daddr=	 -0.4737957,100.423606,19" target="_blank"><button class="btn btn-sm btn-info">Cek Lokasi</button></a></p> 
+									<p><a href="https://www.google.com/maps?saddr=My+Location&daddr=-0.4737957,100.423606,19" target="_blank"><button class="btn btn-sm btn-info">Cek Lokasi</button></a></p> 
 								</div>
                            	</div>
                            </div>                  
@@ -200,7 +200,7 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                          <img src="{{url('assetuser/images/rsud.jpg')}}" width="100%"><br><br>
+                          <img src="{{url('assetuser/images/2017-11-22.jpg.jpg')}}" width="100%"><br><br>
                           <h3 class="text-center"> SPBU Ngalau (14.271.536)</h3>
                           <p class="text-center">Ngalau, Padang Panjang Tim., Kota Padang Panjang, Sumatera Barat 27111
                           </p>
