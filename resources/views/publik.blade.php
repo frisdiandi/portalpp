@@ -9,7 +9,7 @@
 			<div class="container">
 				<div class="row d-flex no-gutters align-items-stretch	consult-wrap">	
 						<div class="bg-white p-5">
-							<h3 class="text-center mb-5"  >Welcome To Portal Resmi Pemerintahan <br>Kota Padang Panjang</h3><hr>
+							<h3 class="text-center mb-5"  >Selamat Datang Di Portal Resmi Pemerintahan <br>Kota Padang Panjang</h3><hr>
 							<div class="row text-center">
 								<div class="col-lg-2">
 									<div class="services">
@@ -143,7 +143,7 @@
     	<div class="container">
     		<div class="row justify-content-center">
           <div class="col-md-10 text-center heading-section heading-section-white ftco-animate">
-            <h2 class="mb-0">Padang Panjang Smart City</h2>
+            <h2 class="mb-0">Padang Panjang Kota Cerdas</h2>
           </div>
         </div>	
     	</div>
@@ -196,7 +196,7 @@
         <div class="row justify-content-center mb-5">
           <div class="col-md-8 text-center heading-section ftco-animate">
           	<span class="subheading">Infografis</span>
-            <h2 class="mb-4">Infografis Terupdate</h2>
+            <h2 class="mb-4">Infografis Terbaru</h2>
             <p>Kumpulan Info Grafis Terbaru</p>
           </div>
         </div>
