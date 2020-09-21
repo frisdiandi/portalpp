@@ -226,10 +226,10 @@
                                  <p><a href="https://www.google.com/maps?saddr=My+Location&daddr=-0.4737957,100.423606,19" target="_blank"><button class="btn btn-sm btn-info">Cek Lokasi</button></a></p> 
 
                                 <p><a href="https://www.google.com/maps?saddr=My+Location&daddr=-0.4737957,100.423606,19" target="_blank"><button class="btn btn-sm btn-info">Cek Lokasi</button></a></p> 
-
+                                <br><br><br>
                                 <p><a href="https://www.google.com/maps?saddr=My+Location&daddr=-0.4737957,100.423606,19" target="_blank"><button class="btn btn-sm btn-info">Cek Lokasi</button></a></p>
 
-                                <br><br><br>
+                                
                                 <p><a href="https://www.google.com/maps?saddr=My+Location&daddr=-0.459911,100.418245" target="_blank"><button class="btn btn-sm btn-info">Cek Lokasi</button></a></p>
 
                                 <p><a href="https://www.google.com/maps?saddr=My+Location&daddr=-0.463149,100.399144" target="_blank"><button class="btn btn-sm btn-info">Cek Lokasi</button></a></p>
