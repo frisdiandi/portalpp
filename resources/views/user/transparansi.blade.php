@@ -1,5 +1,5 @@
 @extends('app',[
-  'activePage' => 'transparansi', 
+  'activePage' => 'home', 
 ])
 @section('content')
  
@@ -28,6 +28,9 @@
 							   <li class="nav-item px-lg-2">
 							    <a class="nav-link py-2 mb-3" data-toggle="tab" href="#home4"><span class="ion-ios-stats mr-2"></span>Akuntabilitas</a>
 							  </li>
+							  <!-- <li class="nav-item px-lg-2">-->
+							  <!--  <a class="nav-link py-2 mb-3" data-toggle="tab" href="#home5"><span class="ion-ios-paper mr-2"></span>Kegiatan</a>-->
+							  <!--</li>-->
 							</ul>
 							<div class="tab-content bg-light rounded mt-2"  style="width: 10[0%"> 
 							  <div class="tab-pane container p-0 active" id="home1">
@@ -35,11 +38,10 @@
                       <table id="basic-datatables1" class="customers" width="100%">
 							<thead>
 							<tr>
-								<th width="5%" class="text-center">No</th>
+								<th>No</th>
                           <th class="text-center">Judul</th>
                           <th >Tahun</th>
                           <th class="text-center">Download</th>
-                          <th></th>
 												</tr>
 											</thead>
 											<tbody>
@@ -47,7 +49,7 @@
                                         @foreach($poster as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td>{{$no}}</td>                                             
                                             <td>{{$data->judul}}</td>
                                             <td class="text-center">{{$data->tahun}}</td>
                                             <td  class="text-center">
@@ -64,11 +66,10 @@
                       <table id="basic-datatables2" class="customers" width="100%" >
 							<thead>
 							<tr>
-								<th width="5%" class="text-center">No</th>
+								<th>No</th>
                           <th>Judul</th>
                           <th>Tahun</th>
-                          <th>Kategori</th>
-                          <th>Download</th>
+                          <th class="text-center">Download</th>
 												</tr>
 											</thead>
 											<tbody>
@@ -76,10 +77,9 @@
                                         @foreach($rencana as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td>{{$no}}</td>                                             
                                             <td>{{$data->judul}}</td>
                                             <td>{{$data->tahun}}</td>
-                                            <td>{{$data->kategori}}</td>
                                             <td  class="text-center">
                									<a href="{{url('public/rencana')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
 											</td>
@@ -94,7 +94,7 @@
                       <table id="basic-datatables3" class="customers" width="100%" >
 							<thead>
 							<tr>
-								<th width="5%" class="text-center">No</th>
+								<th>No</th>
                           <th>Judul</th>
                           <th>Tahun</th>
                           <th>OPD</th>
@@ -107,7 +107,7 @@
                                         @foreach($pengelolaan as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td>{{$no}}</td>                                             
                                             <td>{{$data->judul}}</td>
                                             <td>{{$data->tahun}}</td>
                                             <td>{{$data->skpd}}</td>
@@ -127,7 +127,7 @@
                       <table id="basic-datatables4" class="customers" width="100%" >
 							<thead>
 							<tr>
-								<th width="5%" class="text-center">No</th>
+								<th>No</th>
                           <th>Judul</th>
                           <th>Tahun</th>
                           <th>OPD</th>
@@ -139,7 +139,7 @@
                                         @foreach($akuntabilitas as $data)
                                         <?php $no++?>
                                         <tr>
-                                            <td class="text-center">{{$no}}</td>                                             
+                                            <td>{{$no}}</td>                                             
                                             <td>{{$data->judul}}</td>
                                             <td>{{$data->tahun}}</td>
                                             <td>{{$data->skpd}}</td>
@@ -153,37 +153,37 @@
 									</div>
 							  </div>
 
-							   <!-- <div class="tab-pane container p-0 fade" id="home5">
-							  						<div class="table-responsive">
-                      <table id="basic-datatables5" class="customers" width="100%" >
-							<thead>
-							<tr>
-								<th>No</th>
-                          <th>Judul</th>
-                          <th>Tahun</th>
-                          <th>OPD</th>
-                          <th>Download</th>
-												</tr>
-											</thead>
-											<tbody>
-									      <?php $no=0;?>
-                                        @foreach($kegiatan as $data)
-                                        <?php $no++?>
-                                        <tr>
-                                            <td class="text-center">{{$no}}</td>                                             
-                                            <td>{{$data->judul}}</td>
-                                            <td>{{$data->tahun}}</td>
-                                            <td>{{$data->opd}}</td>
-                                            <td  class="text-center">
-               									<a href="{{url('public/kegiatan')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    
-											</td>
-											</tr>
-											@endforeach
-											</tbody>
-										</table>
-									</div>
-							  </div>
- -->
+							<!--   <div class="tab-pane container p-0 fade" id="home5">-->
+							<!--  						<div class="table-responsive">-->
+       <!--               <table id="basic-datatables5" class="customers" width="100%" >-->
+							<!--<thead>-->
+							<!--<tr>-->
+							<!--	<th>No</th>-->
+       <!--                   <th>Judul</th>-->
+       <!--                   <th>Tahun</th>-->
+       <!--                   <th>OPD</th>-->
+       <!--                   <th>Download</th>-->
+							<!--					</tr>-->
+							<!--				</thead>-->
+							<!--				<tbody>-->
+							<!--		      <?php $no=0;?>-->
+       <!--                                 @foreach($kegiatan as $data)-->
+       <!--                                 <?php $no++?>-->
+       <!--                                 <tr>-->
+       <!--                                     <td>{{$no}}</td>                                             -->
+       <!--                                     <td>{{$data->judul}}</td>-->
+       <!--                                     <td>{{$data->tahun}}</td>-->
+       <!--                                     <td>{{$data->opd}}</td>-->
+       <!--                                     <td  class="text-center">-->
+       <!--        									<a href="{{url('public/kegiatan')}}/{{ $data->file}}" target="_blank"><i class="icon-download"></i></a> 	    -->
+							<!--				</td>-->
+							<!--				</tr>-->
+							<!--				@endforeach-->
+							<!--				</tbody>-->
+							<!--			</table>-->
+							<!--		</div>-->
+							<!--  </div>-->
+
 							</div>
 						</div>
 					</div>
