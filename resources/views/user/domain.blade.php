@@ -29,7 +29,7 @@
             </div>
             <div class="col-md-6 col-lg-3 mb-4 ftco-animate">
               <a href="https://disporapar.padangpanjang.go.id/">
-                <img src="{{url('assetuser/images/disporapas.png')}}" width="100%">
+                <img src="{{url('assetuser/images/diporapar.png')}}" width="100%">
               </a>
             </div>
             <div class="col-md-6 col-lg-3 mb-4 ftco-animate">
@@ -39,12 +39,12 @@
             </div>
 
              <div class="col-md-6 col-lg-3 mb-4 ftco-animate">
-              <a href="https://dishub.padangpanjang.go.id/v2/">
+              <a href="https://dispupr.padangpanjang.go.id/">
                 <img src="{{url('assetuser/images/dispu.png')}}" width="100%">
               </a>
             </div>
             <div class="col-md-6 col-lg-3 mb-4 ftco-animate">
-              <a href="https://kominfo.padangpanjang.go.id/">
+              <a href="https://dispangtan.padangpanjang.go.id/">
                 <img src="{{url('assetuser/images/dispangtan.png')}}" width="100%">
               </a>
             </div>
@@ -121,12 +121,6 @@
                 <img src="{{url('assetuser/images/bpkd.png')}}" width="100%">
               </a>
             </div>
-
-            <div class="col-md-6 col-lg-3 mb-4 ftco-animate">
-              <a href="http://dukcapil.padangpanjang.go.id/">
-                <img src="{{url('assetuser/images/dpkukm.png')}}" width="100%">
-              </a>
-            </div>
             <div class="col-md-6 col-lg-3 mb-4 ftco-animate">
               <a href="https://dagkop.padangpanjang.go.id/">
                 <img src="{{url('assetuser/images/dpkukm.png')}}" width="100%">
@@ -147,7 +141,11 @@
                 <img src="{{url('assetuser/images/setwan.png')}}" width="100%">
               </a>
             </div>
-
+            <div class="col-md-6 col-lg-3 mb-4 ftco-animate">
+              <a href="https://bappeda.padangpanjang.go.id/">
+                <img src="{{url('assetuser/images/bappeda.png')}}" width="100%">
+              </a>
+            </div>
           </div>
         </div>
       </div>
