@@ -77,7 +77,7 @@
 	        	<li class="nav-item @if ($activePage == 'grafis') active @else  @endif"><a href="/grafis" class="nav-link">Infografis</a></li>
 	        	<li class="nav-item @if ($activePage == 'video') active @else  @endif"><a href="/video" class="nav-link">Video</a></li>
 	        	<li class="nav-item @if ($activePage == 'cpnsd') active @else  @endif"><a href="/cpnsd" class="nav-link">CPNSD</a></li>
-	         	<li class="nav-item"><a href="/kontak" class="nav-link">Contact</a></li>
+	         	<li class="nav-item"><a href="/kontak" class="nav-link">Kontak</a></li>
 	        </ul>
 	      </div>
 	    </div>
