@@ -73,7 +73,7 @@
 	        <ul class="navbar-nav ml-auto">
 	        	<li class="nav-item @if ($activePage == 'home') active @else  @endif"><a href="/" class="nav-link">Home</a></li>
 	        	<li class="nav-item @if ($activePage == 'kota') active @else  @endif"><a href="/kota" class="nav-link">Kota</a></li>
-	        	<li class="nav-item"><a href="/transparansi" class="nav-link">Transparansi</a></li>
+	        	<li class="nav-item @if ($activePage == 'transparansi') active @else  @endif"><a href="/transparansi" class="nav-link">Transparansi</a></li>
 	        	<li class="nav-item @if ($activePage == 'grafis') active @else  @endif"><a href="/grafis" class="nav-link">Infografis</a></li>
 	        	<li class="nav-item @if ($activePage == 'video') active @else  @endif"><a href="/video" class="nav-link">Video</a></li>
 	        	<li class="nav-item @if ($activePage == 'cpnsd') active @else  @endif"><a href="/cpnsd" class="nav-link">CPNSD</a></li>

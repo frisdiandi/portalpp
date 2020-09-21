@@ -1,5 +1,5 @@
 @extends('app',[
-  'activePage' => 'home', 
+  'activePage' => 'transparansi', 
 ])
 @section('content')
  
