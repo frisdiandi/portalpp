@@ -9,7 +9,7 @@
 			<div class="container">
 				<div class="row d-flex no-gutters align-items-stretch	consult-wrap">	
 						<div class="bg-white p-5">
-							<h3 class="text-center mb-5"  >Selamat Datang Di Portal Resmi Pemerintahan <br>Kota Padang Panjang</h3><hr>
+							<h3 class="text-center mb-5"  >Welcome To Portal Resmi Pemerintahan <br>Kota Padang Panjang</h3><hr>
 							<div class="row text-center">
 								<div class="col-lg-2">
 									<div class="services">
