@@ -97,7 +97,7 @@
 											<div class="icon mt-2"><img src="{{url('assetuser/images/bank data.png')}}" width="50%"></div>
 										</a>
 										<div class="text media-body">
-											<h6> Bank Data</h6>
+											<h6>Kesetaraan Gender</h6>
 										</div>
 									</div>
 								</div>

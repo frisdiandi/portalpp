@@ -25,7 +25,7 @@
               <a href="https://eplanning.padangpanjang.go.id/">
                 <img src="{{url('assetuser/images/e=lanning2.jpg')}}" width="100%" height="150px" >
               </a>
-              <p class="text-center">E-Learning</p>
+              <p class="text-center">E-Planning</p>
             </div>
             <div class="col-md-6 col-lg-2 mb-4 ftco-animate">
               <a href="http://palito.padangpanjang.go.id/">
@@ -61,7 +61,7 @@
               <a href="https://wbs.padangpanjang.go.id/">
                 <img src="{{url('assetuser/images/wbs2.jpg')}}" width="100%" height="150px" >
               </a>
-              <p class="text-center">SKM</p>
+              <p class="text-center">WBS</p>
             </div>  
           </div>
         </div>
